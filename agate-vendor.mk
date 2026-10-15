@@ -809,7 +809,6 @@ PRODUCT_PACKAGES += \
     libalhLDC \
     libanc_calibration_parser \
     libanc_dc_base \
-    libapmonitor_vendor \
     libappgamepq \
     libapu_mdw_batch \
     libapusys_edma \
@@ -1106,8 +1105,6 @@ PRODUCT_PACKAGES += \
     libwa_rtrefocus \
     libwa_sat \
     libwapi \
-    libwifi-hal-mtk \
-    libwifitest \
     libwpfa \
     libwvhidl \
     libwvkeybox \
@@ -1129,7 +1126,6 @@ PRODUCT_PACKAGES += \
     libpq_prot \
     libmtkcam_streaminfo_plugin-p1stt \
     vendor.dolby.hardware.dms@2.0-impl \
-    vendor.mediatek.hardware.apmonitor@2.0 \
     vendor.mediatek.hardware.apuware.apusys@2.0 \
     vendor.mediatek.hardware.apuware.apusys@2.1 \
     vendor.mediatek.hardware.apuware.hmp@1.0 \
