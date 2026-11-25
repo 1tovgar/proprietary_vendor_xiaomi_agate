@@ -210,6 +210,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
+    vendor/xiaomi/agate/proprietary/vendor/etc/gralloc/cam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/cam.xml \
+    vendor/xiaomi/agate/proprietary/vendor/etc/gralloc/dpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/dpu.xml \
+    vendor/xiaomi/agate/proprietary/vendor/etc/gralloc/dpu_aeu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/dpu_aeu.xml \
+    vendor/xiaomi/agate/proprietary/vendor/etc/gralloc/gpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/gpu.xml \
+    vendor/xiaomi/agate/proprietary/vendor/etc/gralloc/vpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/vpu.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/xiaomi/agate/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/xiaomi/agate/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
@@ -255,6 +260,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/agate/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
     vendor/xiaomi/agate/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/xiaomi/agate/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/xiaomi/agate/proprietary/vendor/etc/mali_platform.config:$(TARGET_COPY_OUT_VENDOR)/etc/mali_platform.config \
     vendor/xiaomi/agate/proprietary/vendor/etc/mdss_dsi_k11t_42_02_0a_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_k11t_42_02_0a_dsc_cmd_mi.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/xiaomi/agate/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
@@ -455,6 +461,7 @@ PRODUCT_PACKAGES += \
     agates5khm2_mipi_raw_tuning \
     com.fingerprints.extension@3.0 \
     libGLES_meow \
+    libGLESr32p1 \
     libMEOW_data \
     libMEOW_gift \
     libMEOW_qt \
@@ -932,6 +939,7 @@ PRODUCT_PACKAGES += \
     libgoodixhwfingerprint \
     libgpu_aux \
     libgpud \
+    libgpud_stock \
     libgralloc_extra \
     libgralloc_metadata \
     libgralloctypes_mtk \
@@ -1112,9 +1120,13 @@ PRODUCT_PACKAGES += \
     libxmi_high_dynamic_range \
     libwvdrmengine \
     arm.graphics-V1-ndk_platform \
+    arm.graphics-V5-ndk \
     arm.graphics-ndk_platform \
     libDR \
     libaiselector \
+    libarm_egl_properties_sysprop \
+    libarm_gralloc_properties_sysprop \
+    libarm_mali_config_sysprops \
     libdpframework \
     libgpudataproducer \
     libmcv_runtime.mtk \
@@ -1247,9 +1259,13 @@ PRODUCT_PACKAGES += \
     vendor_lib64_hw_android_hardware_graphics_mapper@4_0-impl-mediatek_so \
     vendor_lib64_hw_vulkan_mali_so \
     vendor_lib64_arm_graphics-V1-ndk_platform_so \
+    vendor_lib64_arm_graphics-V5-ndk_so \
     vendor_lib64_arm_graphics-ndk_platform_so \
     vendor_lib64_libDR_so \
     vendor_lib64_libaiselector_so \
+    vendor_lib64_libarm_egl_properties_sysprop_so \
+    vendor_lib64_libarm_gralloc_properties_sysprop_so \
+    vendor_lib64_libarm_mali_config_sysprops_so \
     vendor_lib64_libdpframework_so \
     vendor_lib64_libgpudataproducer_so \
     vendor_lib64_libmcv_runtime_mtk_so \
