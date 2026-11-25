@@ -461,7 +461,6 @@ PRODUCT_PACKAGES += \
     agates5khm2_mipi_raw_tuning \
     com.fingerprints.extension@3.0 \
     libGLES_meow \
-    libGLESr32p1 \
     libMEOW_data \
     libMEOW_gift \
     libMEOW_qt \
@@ -779,7 +778,7 @@ PRODUCT_PACKAGES += \
     libHalSuperSensorServerCWrapper \
     libJpgEncPipe \
     libNoFpsActor \
-    libOpenCL \
+    libOpenCL_real \
     libSQLiteModule_VER_ALL \
     libSonyIMX230PdafLibrary \
     libSonyIMX230PdafLibraryWrapper \
@@ -939,7 +938,6 @@ PRODUCT_PACKAGES += \
     libgoodixhwfingerprint \
     libgpu_aux \
     libgpud \
-    libgpud_stock \
     libgralloc_extra \
     libgralloc_metadata \
     libgralloctypes_mtk \
